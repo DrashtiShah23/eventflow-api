@@ -1,0 +1,7 @@
+services:
+  eventflow:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      EVENTFLOW_API_KEY: dev-secret-key
